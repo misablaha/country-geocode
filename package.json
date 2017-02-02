@@ -1,0 +1,22 @@
+{
+  "name": "country-geocode",
+  "version": "1.0.0",
+  "description": "Offline country reverse geocoding using high-resolution borders",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "author": "Michal Blaha <misablaha@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4",
+    "random-useragent": "^0.3.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
